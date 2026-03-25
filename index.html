@@ -11,12 +11,15 @@
   <body>
     <nav id="desktop-nav">
       <div class="logo">Dimuth Samarakon</div>
-      <div>
+      <div class="nav-actions">
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
+          <li><a href="#experience">Skills</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
+        <button class="theme-toggle" type="button" aria-pressed="false">
+          Dark Mode
+        </button>
       </div>
     </nav>
     <nav id="hamburger-nav">
@@ -29,272 +32,225 @@
         </div>
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
+      <button class="theme-toggle" type="button" aria-pressed="false">
+        Dark Mode
+      </button>
     </nav>
     <section id="profile">
-      <div class="section__pic-container">
-        <img src="images and icon/me.png" alt="Dimuth Samarakon profile picture" />
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Dimuth Samarakoon</h1>
-        <p class="section__text__p2">Frontend Developer</p>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('')"
-          >
-            Download CV
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="images and icon/me.png" alt="Dimuth Samarakon profile picture" />
         </div>
-        <div id="socials-container">
-          <img
-            src="images and icon/inkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://linkedin.com/'"
-          />
-          <img
-            src="images and icon/git.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/'"
-          />
+        <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">Dimuth Samarakoon</h1>
+          <p class="section__text__p2">Software Engineering Undergraduate</p>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('')"
+            >
+              Download CV
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+              Contact Info
+            </button>
+          </div>
+          <div id="socials-container">
+            <img
+              src="images and icon/inkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="location.href='https://linkedin.com/'"
+            />
+            <img
+              src="images and icon/git.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="location.href='https://github.com/'"
+            />
 
-          <img
-            src="images and icon/fb.png"
-            alt="My Facebook profile"
-            class="icon"
-            onclick="location.href='https://facebook.com/'"
-          />
+            <img
+              src="images and icon/fb.png"
+              alt="My Facebook profile"
+              class="icon"
+              onclick="location.href='https://facebook.com/'"
+            />
 
-          <img
-            src="images and icon/yt.png"
-            alt="My YouTube profile"
-            class="icon"
-            onclick="location.href='https://youtube.com/'"
-          />
+            <img
+              src="images and icon/yt.png"
+              alt="My YouTube profile"
+              class="icon"
+              onclick="location.href='https://youtube.com/'"
+            />
 
-          <img
-            src="images and icon/insta.png"
-            alt="My Instagram profile"
-            class="icon"
-            onclick="location.href='https://instagram.com/'"
-          />
+            <img
+              src="images and icon/insta.png"
+              alt="My Instagram profile"
+              class="icon"
+              onclick="location.href='https://instagram.com/'"
+            />
+          </div>
         </div>
       </div>
-     
     </section>
 
-  <section id="about">
+    <section id="about">
       <p class="section_text_p1">Get to know more</p>
       <h1 class="title">About Me</h1>
-      <div class="section-container">
-      <div class="section__pic-container">
-        <img src="images and icon/20240829_080015.jpg" 
-        alt="Profile picture" 
-        class="about-pic"/>
-      </div>
-      <div class="about-details-container">
-         <div class="about-containers">
-           <div class="details-container">
-
-              <img src="images and icon/experience.png" 
-              alt="experience icon" 
-              class="icon"/>
-              <h3>Experience</h3>
-              <p>2+ years of experience in frontend development</p>
-
+      <div class="section-container about-layout">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="images and icon/experience.png" alt="experience icon" class="icon" />
+              <h3>Snapshot</h3>
+              <div class="details">
+                <div class="aboutme1">
+                  <ul class="focus-list">
+                <li> Name: Dimuth Samarakoon</li>
+                <li>DOB: 2003.07.30</li>
+                <li>School: Pinnawala Central College</li>
+                <li>Higher Education: University of Kelaniya</li>
+              </ul>
+                </div>
+              </div>
             </div>
+
 
             <div class="details-container">
+              <img src="images and icon/strenghts.png" alt="growth icon" class="icon" />
+              <h3>Strengths</h3>
+              <div class="details">
+                <div class="aboutme1">
+                 <p class="focus-list">
+            Passionate about crafting clean interfaces and solving real-world problems with code.
+            Currently sharpening my engineering mindset through university projects, hackathons,
+            and freelance collaborations.
+          </p>
+                </div>
 
-              <img src="images and icon/education.png" 
-              alt="education icon" 
-              class="icon"/>
-              <h3>Education</h3>
-              <p>Bachelor's degree in Computer Science</p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="images and icon/arrow.png"
+        alt="arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
 
+    <section id="experience">
+      <p class="section_text_p1">Explore my</p>
+      <h1 class="title">Skills</h1>
+      <div class="section-container stack">
+        <div class="experience-details-container">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend &amp; Languages</h2>
+            <div class="article-container">
+              <article>
+                <img src="images and icon/checkmark.png" alt="checkmark icon" class="icon" />
+                <img src="images and icon/html.png" alt="checkmark icon" class="icon" />
+                <div>
+                  <h3>Html</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img src="images and icon/checkmark.png" alt="checkmark icon" class="icon" />
+                <img src="images and icon/css.png" alt="checkmark icon" class="icon" />
+                <div>
+                  <h3>CSS</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img src="images and icon/checkmark.png" alt="checkmark icon" class="icon" />
+                <img src="images and icon/js.png" alt="checkmark icon" class="icon" />
+                <div>
+                  <h3>JS</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img src="images and icon/checkmark.png" alt="checkmark icon" class="icon" />
+                <img src="images and icon/java.png" alt="checkmark icon" class="icon" />
+                <div>
+                  <h3>Java</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img src="images and icon/checkmark.png" alt="checkmark icon" class="icon" />
+                <img src="images and icon/git1.png" alt="checkmark icon" class="icon" />
+                <div>
+                  <h3>C</h3>
+                  
+                </div>
+              </article>
             </div>
-         </div>
-
-         <div class="text-container">
-            <p>
-               i'm dimuth samarakoon.<br>
-               dob-2003.07.30<br>
-               school -nagaragiri central school<br> 
-                       pinnawala central college<br>
-               university - university of kelaniya
-            </p>
-         </div>
-      </div>
-    </div>
-     <img src="images and icon/arrow.png" 
-     alt="arrow icon" 
-     class="icon arrow"
-     onclick="location.href='./#experience'" />
-  </section>
-
- <section id="experience">
-   <p class="section_text_p1">Explore My</p>
-   <h1 class="title">Experience</h1>
-   <div class="experience-details-container">
-    <div class="about-containers">
-      <div class="details-container">
-        <h2 class="experience-sub-title">Frontend Development</h2>
-        <div class="article-container">
-
-           <article>
-             <img src="images and icon/checkmark.png" 
-             alt="checkmark icon" 
-             class="icon"/>
-             <div>
-              <h3>HTML</h3>
-              <p>experienced</p>
-             </div>
-           </article>
-
-            <article>
-             <img src="images and icon/checkmark.png" 
-             alt="checkmark icon" 
-             class="icon"/>
-             <div>
-              <h3>CSS</h3>
-              <p>experienced</p>
-             </div>
-           </article>
-
-            <article>
-             <img src="images and icon/checkmark.png" 
-             alt="checkmark icon" 
-             class="icon"/>
-             <div>
-              <h3>JAVASCRIPT</h3>
-              <p>experienced</p>
-             </div>
-           </article>
-
-            <article>
-             <img src="images and icon/checkmark.png" 
-             alt="checkmark icon" 
-             class="icon"/>
-             <div>
-              <h3>JAVA</h3>
-              <p>experienced</p>
-             </div>
-           </article>
-
-            <article>
-             <img src="images and icon/checkmark.png" 
-             alt="checkmark icon" 
-             class="icon"/>
-             <div>
-              <h3>C</h3>
-              <p>experienced</p>
-             </div>
-           </article>
-                
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend &amp; Tools</h2>
+            <div class="article-container">
+              <article>
+                <img src="images and icon/checkmark.png" alt="checkmark icon" class="icon" />
+                <img src="images and icon/sql.png" alt="checkmark icon" class="icon" />
+                <div>
+                  <h3>MySQL</h3>
+                  
+                </div>
+              </article>
+              
+              <article>
+                <img src="images and icon/checkmark.png" alt="checkmark icon" class="icon" />
+                <img src="images and icon/git1.png" alt="checkmark icon" class="icon" />
+                <div>
+                  
+                  <h3>Git</h3>
+                  
+                </div>
+              </article>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="details-container">
-        <h2 class="experience-sub-title">Backend Development</h2>
-        <div class="article-container">
-           <article>
-             <img src="images and icon/checkmark.png" 
-             alt="checkmark icon" 
-             class="icon"/>
+    </section>
 
-             <div>
-              <h3>MySql</h3>
-              <p>experienced</p>
-             </div>
-           </article>
-
-            <article>
-             <img src="images and icon/checkmark.png" 
-             alt="checkmark icon" 
-             class="icon"/>
-
-             <div>
-              <h3>Node.js</h3>
-              <p>experienced</p>
-             </div>
-           </article>
-
-            <article>
-             <img src="images and icon/checkmark.png" 
-             alt="checkmark icon" 
-             class="icon"/>
-
-             <div>
-              <h3>Git</h3>
-              <p>experienced</p>
-             </div>
-           </article>
+    <section id="contact">
+      <p class="section_text_p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="section-container stack">
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img src="images and icon/email.png" alt="Email icon" class="icon contact-icon" />
+            <p><a href="mailto:examplemail@gmail.com">Email</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img src="images and icon/whatsapp.png" alt="whatsapp icon" class="icon contact-icon" />
+            <p><a href="https://wa.me/0756019029" target="_blank">Whatsapp</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img src="images and icon/call.png" alt="call icon" class="icon contact-icon" />
+            <p><a href="tel:0756019029">Call</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img src="images and icon/messenger.png" alt="messenger icon" class="icon contact-icon" />
+            <p><a href="https://m.me" target="_blank">Messenger</a></p>
+          </div>
         </div>
       </div>
-    </div>
-   </div>
-   <img src="images and icon/arrow.png" 
-      alt="arrow icon" 
-      class="icon arrow"
-      onclick="location.href='./#contacts'"/>
-  </section>
-
-  <section id="contacts">
-    <p class="section_text_p1">Get in Touch</p>
-    <h1 class="title">Contact Me</h1>
-    <div class="contact-info-upper-container">
-
-    <div class="contact-info-container">
-    <img
-    src="images and icon/email.png"
-    alt="Email icon"
-    class="icon contact-icon"/>
-     <p><a href="mailto:examplemail@gmail.com">Email</a></p>
-    </div>
-
-    <div class="contact-info-container">
-    <img
-    src="images and icon/whatsapp.png"
-    alt="whatsapp icon"
-    class="icon contact-icon"
-    />
-    <p><a href="https://wa.me/0756019029" target="_blank">Whatsapp</a></p>
-    </div>
-
-<div class="contact-info-container">
-    <img
-    src="images and icon/call.png"
-    alt="call icon"
-    class="icon contact-icon"
-    />
-    <p><a href="tel:0756019029">Call</a></p>
-    </div>
-
-    <div class="contact-info-container">
-    <img
-    src="images and icon/messenger.png"
-    alt="messenger icon"
-    class="icon contact-icon"
-    />
-    <p><a href="https://m.me" target="_blank">Messenger</a></p>
-    </div>
-
-    </div>
-  </section>
+    </section>
 
   <footer>
     <nav class="nav-links-container">
  <ul class="nav-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
           </ul>
     </nav>
