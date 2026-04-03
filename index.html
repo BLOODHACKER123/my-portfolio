@@ -14,8 +14,12 @@
       <div class="nav-actions">
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
-          <li><a href="#experience">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#blogs">Blogs</a></li>
           <li><a href="#contact">Contact</a></li>
+         
         </ul>
         <button class="theme-toggle" type="button" aria-pressed="false">
           Dark Mode
@@ -32,7 +36,10 @@
         </div>
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
-           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+           <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+           <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#blogs" onclick="toggleMenu()">Blogs</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
@@ -43,12 +50,13 @@
     <section id="profile">
       <div class="section-container">
         <div class="section__pic-container">
-          <img src="images and icon/me.png" alt="Dimuth Samarakon profile picture" />
+          <img src="images/me.png" alt="Dimuth Samarakon profile picture" />
         </div>
         <div class="section__text">
-          <p class="section__text__p1">Hello, I'm</p>
+          <p class="section_text_p1">Hello, I'm</p>
           <h1 class="title">Dimuth Samarakoon</h1>
           <p class="section__text__p2">Software Engineering Undergraduate</p>
+          <h5 class="fields-text">Fullstack developing & Cybersecurity Enthusiast.</h5>
           <div class="btn-container">
             <button
               class="btn btn-color-2"
@@ -62,34 +70,34 @@
           </div>
           <div id="socials-container">
             <img
-              src="images and icon/inkedin.png"
+              src="images/inkedin.png"
               alt="My LinkedIn profile"
               class="icon"
               onclick="location.href='https://linkedin.com/'"
             />
             <img
-              src="images and icon/git.png"
+              src="images/git.png"
               alt="My Github profile"
               class="icon"
               onclick="location.href='https://github.com/'"
             />
 
             <img
-              src="images and icon/fb.png"
+              src="images/fb.png"
               alt="My Facebook profile"
               class="icon"
               onclick="location.href='https://facebook.com/'"
             />
 
             <img
-              src="images and icon/yt.png"
+              src="images/yt.png"
               alt="My YouTube profile"
               class="icon"
               onclick="location.href='https://youtube.com/'"
             />
 
             <img
-              src="images and icon/insta.png"
+              src="images/insta.png"
               alt="My Instagram profile"
               class="icon"
               onclick="location.href='https://instagram.com/'"
@@ -97,6 +105,7 @@
           </div>
         </div>
       </div>
+      
     </section>
 
     <section id="about">
@@ -105,46 +114,222 @@
       <div class="section-container about-layout">
         <div class="about-details-container">
           <div class="about-containers">
+
+        <div class="details-container">
+          <img class="about-pic"  src="images/aboutpic.png">
+            </div>
+
             <div class="details-container">
-              <img src="images and icon/experience.png" alt="experience icon" class="icon" />
-              <h3>Snapshot</h3>
+            
               <div class="details">
                 <div class="aboutme1">
-                  <ul class="focus-list">
-                <li> Name: Dimuth Samarakoon</li>
-                <li>DOB: 2003.07.30</li>
-                <li>School: Pinnawala Central College</li>
-                <li>Higher Education: University of Kelaniya</li>
-              </ul>
+                  <p>Hello! I’m Dimuth,currently a 2nd-year Software Engineering undergraduate at the University of Kelaniya.
+                    My studies have given me a strong foundation in software development principles and a keen interest in building technology
+                    that makes an impact.</p><br>
+                    
+                    <p>As a Full Stack Developer, I enjoy working across both frontend and backend development.
+                    This passion enables me to design seamless,interactive user interfaces while also creating efficient and scalable server-side 
+                    systems that power modern web applications.</p><br>
+
                 </div>
               </div>
             </div>
+      </div>
+      <img
+        src="images/arrow.png"
+        alt="arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#education'"
+      />
+    </section>
 
+    <section id="education">
+      <p class="section_text_p1">My Journey</p>
+      <h1 class="title">Education & Credentials</h1>
+      <div class="section-container stack education-layout">
+        <div class="education-timeline">
+          <article class="details-container timeline-card reveal">
+            <div class="timeline-header">
+              <h3 class="text-xl">BSc (Hons) Software Engineering</h3>
+              <span class="text-year">2024 &ndash; Present</span>
+            </div>
+            <p class="timeline-meta">University of Kelaniya &middot; Faculty of Science</p>
+            <div class="timeline-body">
+              <p class="text-muted-foreground">
+                Cybersecurity and full-stack development focused undergraduate program exploring resilient cloud infrastructures, human-centered UX, and industry-grade DevSecOps workflows.
+              </p>
+              
+              <div class="timeline-tags">
+                <span class="timeline-tag">Cur GPA </span>
+                <span class="timeline-tag">Cybersecurity</span>
+                <span class="timeline-tag">Full-stack</span>
+              </div>
+            </div>
+          </article>
+          <article class="details-container timeline-card reveal reveal-delay-1">
+            <div class="timeline-header">
+              <h3 class="text-xl">G.C.E  A / L &mdash; Physical Science</h3>
+              <span class="text-year">2023-2024</span>
+            </div>
+            <p class="timeline-meta">Pinnawala Central College &middot; Sri Lanka</p>
+            <div class="timeline-body">
+              <p class="text-muted-foreground">
+                Completed Mathematics, Chemistry, and Physics with distinction, achieving a Z-Score of 1.5382 while running STEM outreach initiatives for juniors.
+              </p>
+              
+              <div class="timeline-tags">
+                <span class="timeline-tag">Z-Score 1.5382</span>
+                <span class="timeline-tag">Robotics</span>
+              </div>
+            </div>
+          </article>
+        </div>
 
-            <div class="details-container">
-              <img src="images and icon/strenghts.png" alt="growth icon" class="icon" />
-              <h3>Strengths</h3>
-              <div class="details">
-                <div class="aboutme1">
-                 <p class="focus-list">
-            Passionate about crafting clean interfaces and solving real-world problems with code.
-            Currently sharpening my engineering mindset through university projects, hackathons,
-            and freelance collaborations.
-          </p>
-                </div>
+        <div class="credential-section reveal">
+          <div class="section-header">
+            <h3 class="text-xl">Certifications</h3>
+            <p class="text-muted-foreground1">Selected professional credentials and nano degrees</p>
+          </div>
+          <div class="carousel-shell" aria-label="Certifications carousel">
+            <div class="carousel-track scroll-slow">
+              <article class="carousel-card">
+                <p class="credential-title">AWS Well Architectured Foundation Certificate</p>
+                <p class="credential-meta">AWS &middot; 2026</p>
+                <span class="credential-tag"> AWS ·Cloud Architecture</span>
+              </article>
+              <article class="carousel-card">
+                <p class="credential-title">AWS Networking Basics</p>
+                <p class="credential-meta">AWS  &middot; 2026</p>
+                <span class="credential-tag">Cloud computing · Networking</span>
+              </article>
+              <article class="carousel-card">
+                <p class="credential-title">AWS Cloud Practitioner Essentials</p>
+                <p class="credential-meta">Amazon Web Services &middot; 2026</p>
+                <span class="credential-tag">Architecting · Billing · Security</span>
+              </article>
+              <article class="carousel-card">
+                <p class="credential-title">Introduction To Cyber Security</p>
+                <p class="credential-meta">Simple Learn SkilUp &middot; 2026</p>
+                <span class="credential-tag">Cybersecurity · Networking </span>
+              </article>
+              <!-- duplicate set for seamless loop -->
+              <article class="carousel-card">
+                <p class="credential-title">AWS Well Architectured Foundation Certificate</p>
+                <p class="credential-meta">AWS &middot; 2026</p>
+                <span class="credential-tag"> AWS ·Cloud Architecture</span>
+              </article>
+              <article class="carousel-card">
+                <p class="credential-title">AWS Networking Basics</p>
+                <p class="credential-meta">AWS  &middot; 2026</p>
+                <span class="credential-tag">Cloud computing · Networking</span>
+              </article>
+              <article class="carousel-card">
+                <p class="credential-title">AWS Cloud Practitioner Essentials</p>
+                <p class="credential-meta">Amazon Web Services &middot; 2026</p>
+                <span class="credential-tag">Architecting · Billing · Security</span>
+              </article>
+              <article class="carousel-card">
+                <p class="credential-title">Introduction To Cyber Security</p>
+                <p class="credential-meta">Simple Learn SkilUp &middot; 2026</p>
+                <span class="credential-tag">Cybersecurity · Networking </span>
+              </article>
+            </div>
+          </div>
+        </div>
 
+        <div class="credential-section reveal reveal-delay-1">
+          <div class="section-header">
+            <h3 class="text-xl">Badges & Micro-Credentials</h3>
+            <p class="text-muted-foreground1">Community recognitions and skill challenges</p>
+          </div>
+          <div class="carousel-shell" aria-label="Badges carousel">
+            <div class="carousel-track scroll-fast">
+              <article class="carousel-card">
+                <p class="credential-title">Introduction To AI</p>
+                <p class="credential-meta">Microsoft &middot; 2026</p>
+                <span class="credential-tag"></span>
+              </article>
+              <article class="carousel-card">
+                <p class="credential-title">Introduction To Generative AI andAgents</p>
+                <p class="credential-meta">Microsoft &middot; 2026</p>
+                <span class="credential-tag"></span>
+              </article>
+              <article class="carousel-card">
+                <p class="credential-title">Microsoft Learn Cloud Skills</p>
+                <p class="credential-meta">Microsoft &middot; 2026</p>
+                <span class="credential-tag"></span>
+              </article>
+              <article class="carousel-card">
+                <p class="credential-title">Introduction to Cloud Infrastracture</p>
+                <p class="credential-meta">AWS &middot; 2026</p>
+                <span class="credential-tag"></span>
+              </article>
+              <article class="carousel-card">
+                <p class="credential-title">Introduction To Windows IOT</p>
+                <p class="credential-meta">Microsoft &middot; 2026</p>
+                <span class="credential-tag"></span>
+              </article>
+              <article class="carousel-card">
+                <p class="credential-title">Introduction To Accessiility</p>
+                <p class="credential-meta">Microsoft &middot; 2026</p>
+                <span class="credential-tag"></span>
+              </article>
+              <article class="carousel-card">
+                <p class="credential-title">Introduction to Devops</p>
+                <p class="credential-meta">Microsoft &middot; 2026</p>
+                <span class="credential-tag"></span>
+              </article>
+              
+
+              <!-- duplicate set for seamless loop -->
+              <article class="carousel-card">
+                <p class="credential-title">Introduction To AI</p>
+                <p class="credential-meta">Microsoft &middot; 2026</p>
+                <span class="credential-tag"></span>
+              </article>
+              <article class="carousel-card">
+                <p class="credential-title">Introduction To Generative AI andAgents</p>
+                <p class="credential-meta">Microsoft &middot; 2026</p>
+                <span class="credential-tag"></span>
+              </article>
+              <article class="carousel-card">
+                <p class="credential-title">Microsoft Learn Cloud Skills</p>
+                <p class="credential-meta">Microsoft &middot; 2026</p>
+                <span class="credential-tag"></span>
+              </article>
+              <article class="carousel-card">
+                <p class="credential-title">Introduction to Cloud Infrastracture</p>
+                <p class="credential-meta">AWS &middot; 2026</p>
+                <span class="credential-tag"></span>
+              </article>
+              <article class="carousel-card">
+                <p class="credential-title">Introduction To Windows IOT</p>
+                <p class="credential-meta">Microsoft &middot; 2026</p>
+                <span class="credential-tag"></span>
+              </article>
+              <article class="carousel-card">
+                <p class="credential-title">Introduction To Accessiility</p>
+                <p class="credential-meta">Microsoft &middot; 2026</p>
+                <span class="credential-tag"></span>
+              </article>
+              <article class="carousel-card">
+                <p class="credential-title">Introduction to Devops</p>
+                <p class="credential-meta">Microsoft &middot; 2026</p>
+                <span class="credential-tag"></span>
+              </article>
+            </div>
           </div>
         </div>
       </div>
       <img
-        src="images and icon/arrow.png"
+        src="images/arrow.png"
         alt="arrow icon"
         class="icon arrow"
-        onclick="location.href='./#contact'"
+        onclick="location.href='./#skills'"
       />
     </section>
 
-    <section id="experience">
+    <section id="skills">
       <p class="section_text_p1">Explore my</p>
       <h1 class="title">Skills</h1>
       <div class="section-container stack">
@@ -152,105 +337,350 @@
           <div class="details-container">
             <h2 class="experience-sub-title">Frontend &amp; Languages</h2>
             <div class="article-container">
-              <article>
-                <img src="images and icon/checkmark.png" alt="checkmark icon" class="icon" />
-                <img src="images and icon/html.png" alt="checkmark icon" class="icon" />
+              <div class="skills-article">
+                <img src="images/checkmark.png" alt="checkmark icon" class="icon" />
+                <img src="images/html.png" alt="checkmark icon" class="icon" />
                 <div>
                   <h3>Html</h3>
                   
                 </div>
-              </article>
-              <article>
-                <img src="images and icon/checkmark.png" alt="checkmark icon" class="icon" />
-                <img src="images and icon/css.png" alt="checkmark icon" class="icon" />
+              </div>
+              
+              <div class="skills-article">
+                <img src="images/checkmark.png" alt="checkmark icon" class="icon" />
+                <img src="images/css.png" alt="checkmark icon" class="icon" />
                 <div>
                   <h3>CSS</h3>
                   
                 </div>
-              </article>
-              <article>
-                <img src="images and icon/checkmark.png" alt="checkmark icon" class="icon" />
-                <img src="images and icon/js.png" alt="checkmark icon" class="icon" />
+              </div>
+
+              <div class="skills-article">
+                <img src="images/checkmark.png" alt="checkmark icon" class="icon" />
+                <img src="images/js.png" alt="checkmark icon" class="icon" />
                 <div>
                   <h3>JS</h3>
                   
                 </div>
-              </article>
-              <article>
-                <img src="images and icon/checkmark.png" alt="checkmark icon" class="icon" />
-                <img src="images and icon/java.png" alt="checkmark icon" class="icon" />
+              </div>
+
+              <div class="skills-article">
+                <img src="images/checkmark.png" alt="checkmark icon" class="icon" />
+                <img src="images/java.png" alt="checkmark icon" class="icon" />
                 <div>
                   <h3>Java</h3>
                   
                 </div>
-              </article>
-              <article>
-                <img src="images and icon/checkmark.png" alt="checkmark icon" class="icon" />
-                <img src="images and icon/git1.png" alt="checkmark icon" class="icon" />
+              </div>
+
+              <div class="skills-article">
+                <img src="images/checkmark.png" alt="checkmark icon" class="icon" />
+                <img src="images/git1.png" alt="checkmark icon" class="icon" />
                 <div>
                   <h3>C</h3>
                   
                 </div>
-              </article>
+              </div>
+
             </div>
           </div>
           <div class="details-container">
             <h2 class="experience-sub-title">Backend &amp; Tools</h2>
             <div class="article-container">
-              <article>
-                <img src="images and icon/checkmark.png" alt="checkmark icon" class="icon" />
-                <img src="images and icon/sql.png" alt="checkmark icon" class="icon" />
+              <div class="skills-article">
+                <img src="images/checkmark.png" alt="checkmark icon" class="icon" />
+                <img src="images/sql.png" alt="checkmark icon" class="icon" />
                 <div>
-                  <h3>MySQL</h3>
-                  
+                  <h3>MySQL</h3>      
                 </div>
-              </article>
+              </div>
               
-              <article>
-                <img src="images and icon/checkmark.png" alt="checkmark icon" class="icon" />
-                <img src="images and icon/git1.png" alt="checkmark icon" class="icon" />
-                <div>
-                  
+              <div class="skills-article">
+                <img src="images/checkmark.png" alt="checkmark icon" class="icon" />
+                <img src="images/git1.png" alt="checkmark icon" class="icon" />
+                <div>               
                   <h3>Git</h3>
-                  
                 </div>
-              </article>
+              </div>
+
+              <div class="skills-article">
+                <img src="images/checkmark.png" alt="checkmark icon" class="icon" />
+                <img src="images/gemini.png" alt="checkmark icon" class="icon" />
+                <img src="images/chatgpt.png" alt="checkmark icon" class="icon" />
+                <img src="images/perplexity.png" alt="checkmark icon" class="icon" />
+                <img src="images/claude.png" alt="checkmark icon" class="icon" />
+                <img src="images/github.png" alt="checkmark icon" class="icon" />
+                <img src="images/leonardo.png" alt="checkmark icon" class="icon" />
+                <img src="images/midjourney.jpg" alt="checkmark icon" class="icon" />
+                <div>               
+                  <h3>AI Tools</h3>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
       </div>
+      <img
+        src="images/arrow.png"
+        alt="arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
     </section>
+
+    <section id="projects">
+      <p class="section_text_p1">Case Studies</p>
+      <h1 class="title">Projects</h1>
+      <div class="section-container stack projects-layout">
+        <div class="project-feature reveal">
+          <div class="details-container1">
+          <div class="blog-card-thumb" style="background-image: url('images/app.jpg');"></div>
+        </div>
+          
+        <div class="details-container1">
+          <p class="eyebrow">Fullstack</p>
+          <h3>User Management System</h3>
+          <p class="text-muted-foreground">
+            A fully functional full-stack CRUD web application for
+            managing users - built with a Java ,Spring Boot ,REST API
+            backend, React frontend, and MySQL database. Supports
+            create, read, update, and delete operations with clean UI
+            and real-time API integration.
+          </p>
+          <ul class="project-metrics">
+            <li>
+              <span class="metric-label"></span>
+              <strong></strong>
+            </li>
+            <li>
+              <span class="metric-label"></span>
+              <strong></strong>
+            </li>
+            <li>
+              <span class="metric-label"></span>
+              <strong></strong>
+            </li>
+          </ul>
+
+          <div class="project-actions">
+            <button class="btn btn-color-1" type="button" ><a href="https://github.com/BLOODHACKER123" target="_blank">GitHub</a></button>
+            <button class="btn btn-outline" type="button" ><a href="https://your-project-site.com" target="_blank">Visit Site</a></button>
+          </div>
+        </div>
+          
+        </div>
+
+        <div class="projects-grid">
+
+        <!--  <article class="project-card reveal">
+            <div class="project-card__header">
+              <p class="eyebrow">Security</p>
+              <span class="project-year">2025</span>
+            </div>
+            <h3>Threat Intel Copilot</h3>
+            <p class="text-muted-foreground">
+              Browser-based SOC cockpit that fuses Sigma rules, MITRE ATT&CK mapping, and AI-assisted incident notes.
+            </p>
+            <div class="project-card__tags">
+              <span>Next.js</span>
+              <span>Neo4j</span>
+              <span>LangChain</span>
+            </div>
+            <a class="project-link" href="#">Read deep dive →</a>
+          </article> -->
+
+         <!-- <article class="project-card reveal reveal-delay-1">
+            <div class="project-card__header">
+              <p class="eyebrow">Productivity</p>
+              <span class="project-year">2024</span>
+            </div>
+            <h3>FocusFlow Planner</h3>
+            <p class="text-muted-foreground">
+              Cross-platform task OS with calendar heatmaps, habit streaks, and offline-first syncing powered by Service Workers.
+            </p>
+            <div class="project-card__tags">
+              <span>SvelteKit</span>
+              <span>Supabase</span>
+              <span>Tailwind</span>
+            </div>
+            <a class="project-link" href="#">View prototype →</a>
+          </article> -->
+
+          <!-- <article class="project-card reveal reveal-delay-2">
+            <div class="project-card__header">
+              <p class="eyebrow">Community</p>
+              <span class="project-year">2023</span>
+            </div>
+            <h3>Kelani Volunteer Hub</h3>
+            <p class="text-muted-foreground">
+              Matching portal that onboards 1k+ university volunteers to NGOs with skills-based filters and WhatsApp automation.
+            </p>
+            <div class="project-card__tags">
+              <span>Laravel</span>
+              <span>MySQL</span>
+              <span>Docker</span>
+            </div>
+            <a class="project-link" href="#">See Github →</a>
+          </article> -->
+
+        </div>
+
+        <div class="projects-marquee reveal" aria-label="Technologies marquee">
+          <div class="marquee-track">
+            <span>JavaScript</span>
+            <span>MySQL</span>
+            <span>AWS</span>
+            <span>Azure</span>
+            <span>GIT</span>
+            <span>Linux</span>
+           <span>JavaScript</span>
+            <span>MySQL</span>
+            <span>AWS</span>
+            <span>Azure</span>
+            <span>GIT</span>
+            <span>Linux</span>
+          </div>
+        </div>
+      </div>
+      <img
+        src="images/arrow.png"
+        alt="arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#blogs'"
+      />
+    </section>
+
+    <section id="blogs">
+      <p class="section_text_p1">Writing Desk</p>
+      <h1 class="title">Latest Blogs</h1>
+      <div class="section-container stack blog-layout">
+        <div class="blog-intro reveal">
+          <h3>Notes from the build log</h3>
+          <p class="text-muted-foreground">
+            I share posts about important things about IT and Tech and community stories every other week. Here are a few highlights.
+          </p>
+          <a class="btn btn-outline" href="https://medium.com/@davidworner308/" target="_blank" rel="noreferrer">View all posts</a>
+        </div>
+
+
+        <div class="blog-grid">
+          <article class="blog-card reveal">
+            <header>
+              <span class="blog-category">Engineering </span>
+              <span class="blog-date"> Mar 2026</span>
+              
+            </header>
+
+            <h3>Importance of Diagrams</h3> 
+            <div class="blog-card-thumb" style="background-image: url('images/diagrams.png');"></div>       
+            <a class="blog-link" href="https://medium.com/@davidworner308/importance-of-diagrams-755b1cfc76e0" target="_blank" rel="noreferrer">Continue reading →</a>
+          </article>
+
+          <article class="blog-card reveal reveal-delay-1">
+            <header>
+              <span class="blog-category">tech</span>
+              <span class="blog-date">Dec 2025</span>
+            </header>
+            <h3>Performance Improvement of Optical Isolators</h3> 
+            <div class="blog-card-thumb" style="background-image: url('');"></div>          
+            <a class="blog-link" href="https://medium.com/@davidworner308/performance-improvement-of-optical-isolators-using-statistical-quality-tools-5e4b8420c74e" target="_blank" rel="noreferrer">Continue reading →</a>
+          </article>
+
+          <article class="blog-card reveal reveal-delay-2">
+            <header>
+              <span class="blog-category">Cyber security</span>
+              <span class="blog-date">Jun 2025</span>
+            </header>
+            <h3>CIA Triad</h3>
+            <div class="blog-card-thumb" style="background-image: url('images/cia.png');"></div>
+            <a class="blog-link" href="https://medium.com/@davidworner308/the-cia-triad-the-backbone-of-cybersecurity-c3da2ac43d0b" target="_blank" rel="noreferrer">Continue reading →</a>
+          </article>
+
+        </div>
+      </div>
+      <img
+        src="images/arrow.png"
+        alt="arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
 
     <section id="contact">
       <p class="section_text_p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
-      <div class="section-container stack">
-        <div class="contact-info-upper-container">
-          <div class="contact-info-container">
-            <img src="images and icon/email.png" alt="Email icon" class="icon contact-icon" />
-            <p><a href="mailto:examplemail@gmail.com">Email</a></p>
+      <div class="section-container contact-layout">
+        <div class="contact-info-upper-container contact-info-panel reveal">
+          <div class="contact-info-container reveal">
+            <img src="images/email.png" alt="Email icon" class="icon contact-icon" />
+            <div>
+              <p class="contact-label">Email</p>
+              <a href="mailto:dimuth13972@gmail.com">dimuth13972@gmail.com</a>
+            </div>
           </div>
-          <div class="contact-info-container">
-            <img src="images and icon/whatsapp.png" alt="whatsapp icon" class="icon contact-icon" />
-            <p><a href="https://wa.me/0756019029" target="_blank">Whatsapp</a></p>
+          <div class="contact-info-container reveal reveal-delay-1">
+            <img src="images/whatsapp.png" alt="WhatsApp icon" class="icon contact-icon" />
+            <div>
+              <p class="contact-label">WhatsApp</p>
+              <a href="https://wa.me/0756019029" target="_blank" rel="noreferrer">+94 756 019 029</a>
+            </div>
           </div>
-          <div class="contact-info-container">
-            <img src="images and icon/call.png" alt="call icon" class="icon contact-icon" />
-            <p><a href="tel:0756019029">Call</a></p>
+          <div class="contact-info-container reveal reveal-delay-2">
+            <img src="images/call.png" alt="Call icon" class="icon contact-icon" />
+            <div>
+              <p class="contact-label">Phone</p>
+              <a href="tel:0756019029">+94 756 019 029</a>
+            </div>
           </div>
-          <div class="contact-info-container">
-            <img src="images and icon/messenger.png" alt="messenger icon" class="icon contact-icon" />
-            <p><a href="https://m.me" target="_blank">Messenger</a></p>
+          <div class="contact-info-container reveal reveal-delay-3">
+            <img src="images/messenger.png" alt="Messenger icon" class="icon contact-icon" />
+            <div>
+              <p class="contact-label">Messenger</p>
+              <a href="https://m.me" target="_blank" rel="noreferrer">Chat on Messenger</a>
+            </div>
           </div>
+          
+        </div>
+        <div class="contact-form-card reveal reveal-delay-1">
+          <p class="eyebrow">Send a note</p>
+          <h3>Let’s build something remarkable together</h3>
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Enter Your Name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Project Details</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your idea, timeline, and goals" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-color-1 form-submit">Send Message</button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
         </div>
       </div>
     </section>
+
+    <button id="back-to-top" aria-label="Back to top">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 19V5M5 12l7-7 7 7"/>
+      </svg>
+    </button>
 
   <footer>
     <nav class="nav-links-container">
  <ul class="nav-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#education" onclick="toggleMenu()">Education</a></li>
           <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#blogs" onclick="toggleMenu()">Blogs</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
           </ul>
     </nav>
