@@ -130,10 +130,20 @@
     padding-bottom: 0.75rem;
   }
   .carousel-track {
-    animation: none;
+    animation: scroll-left 26s linear infinite;
     width: max-content;
     gap: 0.85rem;
     padding: 0 0.75rem;
+  }
+  .ai-tools-article {
+    align-items: flex-start;
+  }
+  .ai-tools-icons {
+    flex-wrap: nowrap;
+  }
+  .ai-tools-article h3 {
+    text-align: left;
+    width: 100%;
   }
   footer .nav-links {
     flex-wrap: wrap;
@@ -214,6 +224,15 @@
     text-align: center;
     overflow-wrap: normal;
     word-break: keep-all;
+  }
+  .ai-tools-article {
+    align-items: center;
+  }
+  .ai-tools-icons {
+    justify-content: flex-start;
+  }
+  .ai-tools-article h3 {
+    text-align: center;
   }
   .carousel-card {
     flex: 0 0 min(20rem, calc(100vw - 2.5rem));
