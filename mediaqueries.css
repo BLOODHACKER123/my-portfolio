@@ -83,6 +83,16 @@
     justify-content: center;
     gap: 1rem;
   }
+  .skills-article {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .skills-article h3 {
+    width: 100%;
+    text-align: left;
+    font-size: 1rem;
+  }
   .aboutme1,
   .aboutme2 {
     width: 100%;
@@ -113,6 +123,23 @@
   .carousel-card {
     width: min(36em, calc(100vw - 3rem));
     min-height: 12.5em;
+  }
+  .carousel-shell {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 0.75rem;
+  }
+  .carousel-track {
+    animation: none;
+    width: max-content;
+    gap: 0.85rem;
+    padding: 0 0.75rem;
+  }
+  footer .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem 1rem;
+    font-size: 0.95rem;
   }
   .skills-article .icon {
     width: 2rem;
@@ -180,11 +207,30 @@
     gap: 0.35rem;
     justify-content: flex-start;
     align-items: center;
-    overflow-wrap: anywhere;
+    overflow-wrap: normal;
   }
   .skills-article h3 {
     width: 100%;
     text-align: center;
+    overflow-wrap: normal;
+    word-break: keep-all;
+  }
+  .carousel-card {
+    flex: 0 0 min(20rem, calc(100vw - 2.5rem));
+    width: min(20rem, calc(100vw - 2.5rem));
+    min-height: 11rem;
+  }
+  footer .nav-links {
+    padding: 0 0.25rem;
+  }
+  #back-to-top {
+    left: auto;
+    right: 1rem;
+    bottom: 1rem;
+    transform: translateY(20px);
+  }
+  #back-to-top.visible {
+    transform: translateY(0);
   }
   .project-feature {
     padding: 1.1rem;
